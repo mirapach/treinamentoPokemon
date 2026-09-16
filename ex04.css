@@ -1,0 +1,31 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.machop {
+    padding: 16px;
+    border: 2px dashed rgb(237, 201, 60);
+}
+
+.machop:hover {
+    background-color: rgb(237, 201, 60);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}
+
+.geodude, .onix {
+    padding: 16px;
+    border: 2px dashed rgb(176, 176, 176);
+}
+
+.geodude:hover, .onix:hover {
+    background-color: rgb(176, 176, 176);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}
+
