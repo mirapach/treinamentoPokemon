@@ -1,0 +1,40 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.gengar {
+    align-self: flex-end;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.alakazam {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.haunter {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.gengar:hover {
+    background-color: rgb(76, 44, 105);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}
+
+.alakazam:hover {
+    background-color: rgb(221, 218, 40);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}
+
+.haunter:hover {
+    background-color: rgb(115, 72, 155);
+    border: 2px dashed rgb(255, 255, 255);
+    zoom: 1.25;
+}
